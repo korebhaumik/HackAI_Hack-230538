@@ -20,17 +20,17 @@ This project is a temperature agent that periodically computes the temperature s
 **Link to add the discord bot to your server:** [bot](https://discord.com/api/oauth2/authorize?client_id=1159898199285305395&permissions=8&scope=bot)
 
 <p>Available commands</p>
-<img width="1392" alt="Screenshot 2023-10-11 at 12 02 16 AM" src="https://github.com/korebhaumik/hack-ai-temp/assets/106856064/0ed9561e-d73b-458e-8d1f-be26a298169d">
+<img width="1392" alt="Screenshot 2023-10-11 at 12 02 16 AM" src="https://github.com/korebhaumik/temperature-agent-hack-ai/assets/106856064/0bb996f6-e93f-4c55-81ff-7deb79b89f7a">
 
 <p>Alert Command</p>
-<img width="1392" alt="Screenshot 2023-10-11 at 12 01 43 AM" src="https://github.com/korebhaumik/hack-ai-temp/assets/106856064/007c9886-2038-4fab-ac64-8f0f3a9445a4">
+<img width="1392" alt="Screenshot 2023-10-11 at 12 01 43 AM" src="https://github.com/korebhaumik/temperature-agent-hack-ai/assets/106856064/15079a98-45bf-49b5-b8fb-a45a6c015b1e">
 
 <p>Disable Alerts</p>
-<img width="1392" alt="Screenshot 2023-10-11 at 12 02 11 AM" src="https://github.com/korebhaumik/hack-ai-temp/assets/106856064/79b1b2e5-dd80-452d-aae8-482cd87281ad">
+<img width="1392" alt="Screenshot 2023-10-11 at 12 02 11 AM" src="https://github.com/korebhaumik/temperature-agent-hack-ai/assets/106856064/ef5b686d-755b-4788-baba-f779fb86d447">
+
 
 <p>Get weather updates</p>
-<img width="1392" alt="Screenshot 2023-10-11 at 12 02 42 AM" src="https://github.com/korebhaumik/hack-ai-temp/assets/106856064/5b0465e4-6fd0-4591-8353-cd2a1c7042ef">
-
+<img width="1392" alt="Screenshot 2023-10-11 at 12 02 42 AM" src="https://github.com/korebhaumik/temperature-agent-hack-ai/assets/106856064/20bcb1bc-a3a4-4b0b-9c6c-dab414caad14">
 
 
 ## Features
