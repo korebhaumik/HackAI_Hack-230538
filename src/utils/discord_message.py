@@ -171,9 +171,6 @@ async def get_updates(interaction: discord.Interaction, location: str):
     location = location.title()
     global valid_loc
     try:
-        rawData = redis.get(str(interaction.user.name))
-        userData = json.loads(rawData)
-
         index = valid_loc.index(location)
         data = await get_weather(location)
 
@@ -217,6 +214,20 @@ async def get_updates(interaction: discord.Interaction, location: str):
 async def disable(interaction: discord.Interaction):
     global redis
     rawData = redis.get(str(interaction.user.name))
+    print(rawData)
+    if rawData is None:
+        embed = discord.Embed(
+            title="Alert Disabled !!",
+            description="Your weather agent alert has been disabled successfully.",
+            color=discord.Color.red(),
+        )
+        embed.add_field(
+            name="`/alert`",
+            value="Use this command to reactivate the alerts.",
+            inline=False,
+        )
+        await interaction.response.send_message(embed=embed, ephemeral=True)
+        return
     data = json.loads(rawData)
     if data:
         data["isActive"] = False

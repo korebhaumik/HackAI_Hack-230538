@@ -37,6 +37,7 @@ temp_agent = Agent(
 async def compute(ctx: Context):
     global redis
     keys = redis.keys("*")
+    # print(keys)
     data = {}
     for key in keys:
         data[key.decode("utf-8")] = json.loads(redis.get(key))
